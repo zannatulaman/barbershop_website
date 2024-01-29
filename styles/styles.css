@@ -92,7 +92,7 @@
     background-color:#000;
 }
 #about{
-    height: 80vh;
+    height: 100vh;
     padding: 60px;
     box-sizing: border-box;
 }
@@ -335,7 +335,7 @@
     padding: 15px;
 }
 #testimonial{
-    height: 80vh;
+    height: 100vh;
     padding: 60px;
     box-sizing: border-box;
 }
