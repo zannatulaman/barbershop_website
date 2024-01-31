@@ -865,3 +865,178 @@ form .banner-btn a{
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .navbar li {
+        /* padding: 10px; */
+        font-size: 14px;
+    }
+
+    .banner-text {
+        padding: 200px 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+    }
+
+    .banner-btn a {
+        padding: 10px;
+        font-size: 10x;
+    }
+
+    #about {
+        padding: 55px;
+    }
+
+    .section-text h1 {
+        font-size: 30px;
+    }
+
+    .left-line,
+    .right-line {
+        top: 30%;
+        width: 5%;
+        margin: 0 110px;
+        background: gray;
+        height: 2px;
+    }
+
+    .about-img img {
+        width: 300px;
+    }
+
+    .about-text2 h1 {
+        font-size: 30px;
+    }
+
+    .about-text2 p {
+        font-size: 16px;
+    }
+    .about-text2 .banner-btn a{
+            font-size: 10px;
+            padding: 10px;
+    }
+    #services {
+        padding: 50px;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        column-gap: 10px;
+    }
+
+    .item span {
+        font-size: 60px;
+    }
+
+    .item h1 {
+        font-size: 24px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    #portfolio {
+        padding: 50px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item1 img {
+        height: 250px;
+    }
+
+    .overlay h1 {
+        font-size: 18px;
+    }
+
+    .overlay hr {
+        width: 20%;
+    }
+
+    .overlay p {
+        font-size: 14px;
+    }
+
+    #blog {
+        padding: 50px;
+    }
+
+    .blog-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .item3 {
+        padding: 30px;
+    }
+
+    .item3 img {
+        transform: none;
+    }
+
+    .item3 h1 {
+        font-size: 24px;
+    }
+
+    .item3 p {
+        font-size: 14px;
+    }
+
+    #testimonial {
+        padding: 50px;
+    }
+
+    #contact {
+        padding: 50px;
+    }
+
+    .contact-flex {
+        height: 800px;
+    }
+
+    form .banner-btn {
+        text-align: center;
+    }
+
+    form .banner-btn a {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .right-box {
+        width: 300px;
+        height: 250px;
+    }
+
+    #footer {
+        /* margin-top: 10px; */
+    }
+
+    .footer-text {
+        padding: 20px;
+    }
+
+    .footer-text p {
+        font-size: 14px;
+    }
+}
