@@ -865,16 +865,17 @@ form .banner-btn a{
         
     }
     .banner-text{
-        padding: 100px;
+        padding: 110px;
     }
     .banner-text h1{
-        font-size: 30px;
-        margin-top: 20px;
+        font-size: 35px;
+        margin-top: 30px;
         
     }
     .banner-text P{
         width: 100%;
         font-size: 15px;
+        margin-top: 20px;
     }
     .banner-btn a{
         padding:13px;
