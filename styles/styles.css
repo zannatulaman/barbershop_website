@@ -25,7 +25,7 @@
     background: #3e2723ec;
     box-sizing: border-box;
     z-index: 1000; 
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 .header img{
@@ -93,7 +93,7 @@
     color: #000;
 }
 #about{
-    height: 80vh;
+    height: 100vh;
     padding: 50px;
     box-sizing: border-box;
 }
@@ -150,10 +150,9 @@
 }
 .container{
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
-    justify-content:space-around;
-    margin-left: 5%;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
 }
 .about-img{
     position: relative;
@@ -180,7 +179,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 500px;
     background: #f75453;
     height: 100%;
     margin-left: 15px;
@@ -217,12 +216,12 @@
     grid-template-columns:repeat(3, 1fr);
     gap: 30px;
     column-gap:20px ;
-    /* margin: 20px 20px; */
+    margin: 20px 20px;
 }
 .item{
     border:1px solid #e7e7e7;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    padding:40px 5px;
+    padding:20px 10px;
     border-radius: 5px;
     text-align: center;
     transition: background 0.5s, transform 0.5s;
@@ -233,7 +232,7 @@
      background: #07daff;
 }
 .item span{
-    font-size:100px ;
+    font-size:80px ;
     background: linear-gradient(to right, #07daff, #f75453);
     -webkit-background-clip: text; 
     background-clip: text;
@@ -264,7 +263,7 @@
 }
 .item1 img{
     width: 100%;
-    height: 300px;
+    height: 270px;
     object-fit: cover;
     display: block;
 }
@@ -415,8 +414,8 @@
     position: relative;
 }
 .left-box, .left-box{
-     margin: 10px;
-  }
+    margin: 10px;
+}
 .form {
     /* max-width: 400px; */
     margin: auto;
@@ -484,4 +483,856 @@ form .banner-btn a{
     color: #ffffff;
 }
 
+@media screen  and (max-width: 1024px) {
+    .header img{
+        width: 120px;
+    }
+    
+    .navbar li{
+        padding: 10px;
+        
+    }
+    .banner-text{
+        text-align: center;
+        padding: 150px;
+        color: #fff;
+    }
+    .banner-text h1{
+        font-size: 40px;
+        
+    }
+    .banner-text P{
+        font-size: 20px;
+       
+    }
+    .banner-btn a{
+        padding:16px;
+    }
+    #about{
+        height: auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .line img{
+        width: 25px;
+       
+    }
+
+    .container{
+       flex-direction: column;
+    }
+    .about-img{
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .about-img img{
+        width: 500px;
+    }
+    .about-text2 h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .about-text2 p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-text2 .banner-btn{
+        text-align: center;
+    }
+    .about-text2 .banner-btn a{
+          padding: 15px;
+          font-size: 15px;
+    }
+    #services{
+        height: auto;
+        padding: 50px;
+        margin-top: 50px;
+        box-sizing: border-box;
+    }
+    .service-grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+    .item span{
+        font-size:60px ;
+    }
+    .item h1{
+        font-size: 25px;
+    }
+    .item p{
+        font-size: 18px;
+    }
+    #portfolio{
+        height: auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .portfolio-grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+    .item1 img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .overlay h1 {
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    
+    .overlay hr {
+        width: 50%;
+        border: 1px solid #ffffff;
+        margin: 10px 0;
+    }
+    .overlay p{
+        font-size: 16px;
+    }
+    #blog{
+        height: auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .blog-grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+    .item3{
+        width: 100%;
+        height: 600px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    .item3 img{
+        width: 200px;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 28px;
+        font-style: oblique;
+        /* margin: 20px; */
+    }
+    .item3 p{
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    #testimonial{
+        height: auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .testimonial-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 50px auto;
+    }
+    #contact{
+        height: auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    #footer{
+        height:auto;
+    }
+}
+
+@media screen  and (max-width: 768px){
+    .header img{
+        width: 100px;
+    }
+    
+    .navbar li{
+        padding: 5px;
+        
+    }
+    .banner-text{
+        text-align: center;
+        padding: 130px;
+        color: #fff;
+    }
+    .banner-text h1{
+        font-size: 40px;
+        
+    }
+    .banner-text P{
+        margin-top: 20px;
+        font-size: 20px;
+       
+    }
+    .banner-btn a{
+        padding:16px;
+    }
+    #about{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .line img{
+        width: 25px;
+       
+    }
+
+    .container{
+       flex-direction: column;
+    }
+    .about-img{
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .about-img img{
+        width: 500px;
+    }
+    .about-text2 h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .about-text2 p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-text2 .banner-btn{
+        text-align: center;
+    }
+    .about-text2 .banner-btn a{
+          padding: 15px;
+          font-size: 15px;
+    }
+    #services{
+        height: auto;
+        padding: 45px;
+        margin-top: 50px;
+        box-sizing: border-box;
+    }
+    .service-grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+    .item span{
+        font-size:60px ;
+    }
+    .item h1{
+        font-size: 25px;
+    }
+    .item p{
+        font-size: 18px;
+    }
+    #portfolio{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item1 img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .overlay h1 {
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    
+    .overlay hr {
+        width: 50%;
+        border: 1px solid #ffffff;
+        margin: 10px 0;
+    }
+    .overlay p{
+        font-size: 16px;
+    }
+    #blog{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .blog-grid{
+        grid-template-columns:1fr;
+    }
+    .item3{
+        width: 50%;
+        height: 550px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        margin: 20px auto;
+    }
+    .item3 img{
+        width: 200px;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 28px;
+        font-style: oblique;
+        /* margin: 20px; */
+    }
+    .item3 p{
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    #testimonial{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .testimonial-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 50px auto;
+    }
+    #contact{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .left-box{
+        position: relative;
+        left: 10%;
+    }
+    .contact-flex{
+        height: 800px;
+    }
+    form .banner-btn{
+        position: absolute;
+        left: 20%;
+    }
+    form .banner-btn a{
+        font-size: 12px;
+        padding: 12px;
+    }
+    .right-box {
+        width: 300px;
+        height: 270px;
+        margin: 100px;
+    }
+    #footer{
+        height:auto;
+    }
+}
+
+
+
+@media screen  and (max-width: 500px){
+    .header img{
+        width: 100px;
+    }
+    .navbar li{
+        padding: auto;
+        font-size: 13px;
+        
+    }
+    .banner-text{
+        padding: 100px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        margin-top: 20px;
+        
+    }
+    .banner-text P{
+        width: 100%;
+        font-size: 15px;
+    }
+    .banner-btn a{
+        padding:13px;
+        font-size: 12px;
+    }
+    #about{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .line img{
+        width: 25px;
+    }
+    .left-line{
+        width: 5%;
+        margin-left: 40%;
+    }
+    .right-line{
+        width: 5%;
+        margin-right: 40%;
+    }
+
+    .container{
+       flex-direction: column;
+    }
+    .about-img{
+        position: relative;
+        overflow: hidden;
+    }
+    .about-img img{
+        width: 400px;
+    }
+    .about-img::after{
+        width: 400px;
+    }
+    .about-text2 h1{
+        font-size: 35px;
+        position: absolute;
+        top: 175%;
+        left: 20%;
+    }
+    .about-text2 p{
+        width: 90%;
+        position: absolute;
+        top: 180%;
+        left: 10%;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .about-text2 .banner-btn{
+        position: absolute;
+        top: 200%;
+        left: 35%;
+    }
+    .about-text2 .banner-btn a{
+          padding: 13px;
+          font-size: 13px;
+    }
+    #services{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .service-grid{
+        grid-template-columns:1fr;
+    }
+    .item span{
+        font-size:50px ;
+    }
+    .item h1{
+        font-size: 30px;
+    }
+    .item p{
+        font-size: 16px;
+    }
+    #portfolio{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .portfolio-grid{
+        grid-template-columns:1fr;
+    }
+    .item1 img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .overlay h1 {
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+    
+    .overlay hr {
+        width: 50%;
+        border: 1px solid #ffffff;
+        margin: 10px 0;
+    }
+    .overlay p{
+        font-size: 18px;
+    }
+    
+    #blog{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .blog-grid{
+        grid-template-columns:1fr;
+    }
+    .item3{
+        width: auto;
+        height: 500px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    .item3 img{
+        width: 200px;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 28px;
+        font-style: oblique;
+        /* margin: 20px; */
+    }
+    .item3 p{
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 80%;
+        left: 30%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    .item3{
+        width: 100%;
+        height: 500px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .item3 img{
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        object-fit: cover;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 30px;
+        font-style: oblique;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 70%;
+        left: 35%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    
+    #testimonial{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    #contact{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .left-box{
+        position: relative;
+        left: 10%;
+    }
+    .contact-flex{
+        height: 500px;
+    }
+    form .banner-btn{
+        position: absolute;
+        left: 20%;
+    }
+    form .banner-btn a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .right-box {
+        display: none;
+    }
+    #footer{
+        height:auto;
+    }
+    
+}
+
+
+/* @media screen  and (max-width: 425px){
+    #banner{
+        width: 100%;
+    }
+    .header{
+        width: auto;
+    }
+    .header img{
+        width: 100px;
+    }
+    .navbar li{
+        padding: auto;
+        font-size: 12px;
+        
+    }
+    .banner-text{
+        padding: 50px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .banner-text P{
+        width: 100%;
+        margin: 10px;
+        font-size: 15px;
+    }
+    .banner-btn a{
+        padding:13px;
+        font-size: 12px;
+    }
+    #about{
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .line img{
+        width: 25px;
+    }
+    .left-line{
+        width: 5%;
+        margin-left: 40%;
+    }
+    .right-line{
+        width: 5%;
+        margin-right: 40%;
+    }
+
+    .container{
+       flex-direction: column;
+    }
+    .about-img{
+        position: relative;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .about-img::after{
+        width: 300px;
+    }
+    .about-text2 h1{
+        font-size: 30px;
+        position: absolute;
+        top: 300%;
+        left: 10%;
+    }
+    .about-text2 p{
+        position: absolute;
+        top: 180%;
+        left: 0;
+        font-size: 18px;
+    }
+    .about-text2 .banner-btn{
+        position: absolute;
+        top: 210%;
+        left: 30%;
+    }
+    .about-text2 .banner-btn a{
+          padding: 13px;
+          font-size: 13px;
+    }
+    #services{
+        height: auto;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .service-grid{
+        grid-template-columns:1fr;
+    }
+    .item span{
+        font-size:40px ;
+    }
+    .item h1{
+        font-size: 20px;
+    }
+    .item p{
+        font-size: 16px;
+    }
+    #portfolio{
+        height: auto;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+    .portfolio-grid{
+        grid-template-columns:1fr;
+    }
+    .item1 img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .overlay h1 {
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    
+    .overlay hr {
+        width: 50%;
+        border: 1px solid #ffffff;
+        margin: 10px 0;
+    }
+    .overlay p{
+        font-size: 16px;
+    }
+    
+    #blog{
+        height: auto;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+    .blog-grid{
+        grid-template-columns:1fr;
+    }
+    .item3{
+        width: 100%;
+        height: 500px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    .item3 img{
+        width: 200px;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 28px;
+        font-style: oblique;
+    }
+    .item3 p{
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 80%;
+        left: 30%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    .item3{
+        width: 100%;
+        height: 500px;
+        border:1px solid #e7e7e7eb;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .item3 img{
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        object-fit: cover;
+    }
+    .item3 img:hover{
+        transform: scale(1.1);
+    }
+    .item3 h1{
+        font-size: 30px;
+        font-style: oblique;
+    }
+    .item3 .banner-btn{
+        position: absolute;
+        top: 65%;
+        left: 30%;
+    }
+    .item3 .banner-btn a{
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 15px;
+        padding: 15px;
+    }
+    
+    #testimonial{
+        height: auto;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+    #contact{
+        height: auto;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+    .left-box{
+        position: relative;
+        left: 10%;
+    }
+    .contact-flex{
+        height: 500px;
+    }
+    form .banner-btn{
+        position: absolute;
+        left: 20%;
+    }
+    form .banner-btn a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .right-box {
+        display: none;
+    }
+    #footer{
+        height:auto;
+    }
+    
+} */
 
