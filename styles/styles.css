@@ -425,7 +425,7 @@
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     
 }
   
@@ -494,11 +494,11 @@ form .banner-btn a{
     }
     .banner-text{
         text-align: center;
-        padding: 150px;
+        /* padding: 150px; */
         color: #fff;
     }
     .banner-text h1{
-        font-size: 40px;
+        font-size: 60px;
         
     }
     .banner-text P{
@@ -668,7 +668,7 @@ form .banner-btn a{
     }
     .banner-text{
         text-align: center;
-        padding: 130px;
+        padding: 170px;
         color: #fff;
     }
     .banner-text h1{
@@ -682,6 +682,7 @@ form .banner-btn a{
     }
     .banner-btn a{
         padding:16px;
+        margin: 0;
     }
     #about{
         height: auto;
@@ -865,7 +866,7 @@ form .banner-btn a{
         
     }
     .banner-text{
-        padding: 110px;
+        padding: 150px;
     }
     .banner-text h1{
         font-size: 35px;
@@ -927,8 +928,8 @@ form .banner-btn a{
     }
     .about-text2 .banner-btn{
         position: absolute;
-        top: 198%;
-        left: 30%;
+        top: 195%;
+        left: 35%;
     }
     .about-text2 .banner-btn a{
           padding: 13px;
@@ -1257,9 +1258,6 @@ form .banner-btn a{
         height: auto;
     }
 }
-
-
-
 
 @media screen  and (max-width: 320px){
     .header img {
