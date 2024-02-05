@@ -219,7 +219,7 @@
 .item{
     border:1px solid #e7e7e7;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    padding:20px 10px;
+    padding:30px 10px;
     border-radius: 5px;
     text-align: center;
     transition: background 0.5s, transform 0.5s;
@@ -241,7 +241,7 @@
     font-size: 2rem;
 }
 .item p{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 #portfolio{
     min-width:100vh;
@@ -495,11 +495,12 @@ form .banner-btn a{
     }
 
     .banner-text h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .banner-text p {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
+        margin-top: 20px;
     }
     #about{
         min-height: 80vh;
@@ -629,11 +630,13 @@ form .banner-btn a{
         min-height: 50vh;
     }
     .banner-text h1 {
-        margin-top: 50px;
+        margin-top: 100px;
+        font-size: 3rem;
     }
 
     .banner-text p {
-        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-top: 30px;
     }
 
     #about{
