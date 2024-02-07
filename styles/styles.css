@@ -793,17 +793,15 @@ textarea {
 
 
 @media screen and (max-width: 425px) {
-    .header {
-        /* flex-direction: column; */
-        display: inline-block;
-    }
-
     .header img {
-        width: 150px;
+        width: 100px;
+    }
+    .navbar{
+        text-align: center;
     }
 
     .navbar li {
-        display: inline-block;
+        font-size: .6rem;
         padding:auto;
     }
 
@@ -838,7 +836,9 @@ textarea {
     #footer {
         min-height: 100vh;
     }
-
+     .section-text h1{
+        font-size: 3rem;
+     }
     .about-img img {
         width: 300px;
     }
@@ -846,7 +846,7 @@ textarea {
     .about-img::after {
         width: 300px;
     }
-
+    
     .about-text2 h1 {
         font-size: 2rem;
     }
@@ -886,6 +886,12 @@ textarea {
     textarea {
         width: 100%;
     }
+    .contact-btn{
+        margin-bottom: 10px;
+    }
+     .contact-btn a{
+        font-size: .5rem;
+     }
 
     .right-box {
         margin-top: 30px;
@@ -895,6 +901,10 @@ textarea {
     .right-box h1 {
         font-size: 1.2rem;
     }
+    .right-flex, .left-flex{
+        font-size:.8rem ;
+    }
+
     #footer{
         min-height: 15vh;
     }
