@@ -314,57 +314,6 @@
     font-size: 1rem;
 }
 
-#blog{
-    min-width:100vh;
-    padding: 60px;
-    box-sizing: border-box;
-}
-.blog-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin: 30px 20px;
-}
-.item3{
-    /* width: 100%; */
-    height: 500px;
-    border:1px solid #e7e7e7eb;
-    border-radius: 5px;
-    text-align: center;
-    /* position: relative; */
-}
-
-.item3 img{
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-    object-fit: cover;
-    /* transition: transform 0.5s ease; */
-    transition: background 0.5s, transform 0.5s;
-}
-.item3 img:hover{
-    transform: scale(1.1);
-}
-.item3 h1{
-    font-size: 2rem;
-    font-style: oblique;
-    /* margin: 20px; */
-}
-.item3 p{
-    /* width: 100%; */
-    /* position: absolute;
-    top: 60%;
-    left: 0%; */
-    font-size: 1.3rem;
-    font-style: normal;
-    text-align: center;
-}
-.item3 .banner-btn a{
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 1rem;
-    padding: 15px;
-}
 #testimonial{
     /* background:linear-gradient(rgba(0,0,0,0.5),#07daff);  */
     min-height: 100vh;
@@ -827,7 +776,6 @@ textarea {
         font-size: 1rem;
         padding: 10px;
     }
-
     #about,
     #services,
     #portfolio,
